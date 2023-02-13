@@ -31,8 +31,8 @@ public class PessoaController {
 	@GetMapping("/nome/{nome}")
 	@RequestMapping(value = "/pessoas/nome/{nome}", method = RequestMethod.GET)
 	public PessoaDTO localizarPessoaPorNome(@PathVariable(name = "nome") String nome) {
-		Pessoa funcionario = pessoaRepository.findFirstByNome(nome);
-		return new PessoaDTO(funcionario);
+		Pessoa pessoa = pessoaRepository.findFirstByNome(nome);
+		return new PessoaDTO(pessoa);
 	}
 
 	// listar(select - ler) todas as pessoas cadastrados através de um
