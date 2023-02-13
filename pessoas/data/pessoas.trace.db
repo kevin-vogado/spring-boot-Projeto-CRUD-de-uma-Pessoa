@@ -1,0 +1,8 @@
+2023-02-13 10:48:06 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "select * from pessoa \000d\000a\000d\000adelete [*]from pessoa where id = 1"; SQL statement:
+select * from pessoa 
+
+delete from pessoa where id = 1 [42000-214]
+2023-02-13 10:48:32 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]."; SQL statement:
+. [42000-214]
