@@ -49,7 +49,7 @@ public class PessoaController {
 		return pessoaDTOS;
 	}
 
-	// função de salvar(insert - criar) funcionarios dentro de um repositorio
+	// função de salvar(insert - criar) pessoas dentro de um repositorio
 	@PostMapping("/")
 	@RequestMapping(value = "/pessoas", method = RequestMethod.POST)
 	public void gravarPessoa(@RequestBody PessoaDTO dto) {
@@ -57,7 +57,7 @@ public class PessoaController {
 		pessoaRepository.save(pessoa);
 	}
 
-	// função de alterar dados do funcionário
+	// função de alterar dados de uma pessoa
 	@PutMapping("/{id}")
 	@RequestMapping(value = "/pessoas", method = RequestMethod.PUT)
 	public @ResponseBody Pessoa alterarPessoa(@RequestBody Pessoa pessoa) {
