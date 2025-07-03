@@ -1,6 +1,6 @@
 # Aplicação CRUD de uma Pessoa
 
-Esta aplicação trata-se de um projeto desenvolvido para criar, editar, remover e consultar uma pessoa e o endereço residencial associado a uma pessoa. O software foi desenvolvido com o intuito de aprimorar os estudos em Java com Spring Boot, tendo o gerenciamento de dependências Maven, afim de gerar uma API REST que recebe requisições para efetuar as operações de CRUD de Pessoa e Endereço.
+A aplicação desenvolvida trata-se de uma API REST que recebe requisições para efetuar as operações de CRUD, como criar, alterar, remover e consultar uma Pessoa e o Endereço residencial associado a uma Pessoa. O software foi desenvolvido com o intuito de aprimorar os estudos em Java com Spring e Spring Boot, tendo o gerenciamento de dependências Maven, e persistindo os dados cadastrados no banco de dados relacional H2.
 
 # Técnicas e Tecnologias Utilizadas
 
@@ -10,3 +10,4 @@ Esta aplicação trata-se de um projeto desenvolvido para criar, editar, remover
 - `Maven`
 - `API REST`
 - `DTO (Data Transfer Object)`
+- `Banco de Dados H2`
